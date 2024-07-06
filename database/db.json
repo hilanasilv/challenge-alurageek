@@ -1,0 +1,12 @@
+{
+ "products": [
+    {
+        "nome":"Darth Vader",
+        "preço": "28",
+        "imagem": "/public/images/unsplash-6-fdxgy-9-j-6-y-4.svg",
+        "id": "1"
+    }
+    
+
+ ]   
+}
