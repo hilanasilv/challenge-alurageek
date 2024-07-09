@@ -1,0 +1,19 @@
+*{
+    background-color: #161616;
+    margin:0;
+}
+
+body, html {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h1{
+    text-align: center;
+    font-weight: 600;
+    font-size: 2.5rem;
+    color:#C600DD;
+    font-family: 'Poppins', sans-serif
+}

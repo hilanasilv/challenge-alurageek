@@ -1,64 +1,48 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Press+Start+2P&display=swap" rel="stylesheet">
     <title>AluraGeek</title>
     <link rel="stylesheet" href="style.css">
 </head>
-
 <body>
     <header class="cabecalho">
-        <img src="/public/images/image-1.png" alt="">
-        <p class="titulo">AluraGeek</p>
+            <img src="/public/images/image-1.png" alt="imagem de corações pixelados">
+            <p>AluraGeek</p>
     </header>
-
-
-    <main class="container">
-        <section class="produtos">
-            <h1>Meus produtos</h1>
-            <div data-produto class="container-produtos">
-                <div class="card">
-                    <img src="/public/images/unsplash-6-fdxgy-9-j-6-y-4.svg" alt="">
-                </div>
-
-                <div class="card-container--info">
-                    <p>Produto</p>
-                    <div class="card-container--value">
-                        <p>$ 28</p>
-                        <button class="delete-button" data-id="${id}">
-                            <img src="/public/images/icon-trash-2.svg" alt="">
-                        </button>
-                    </div>
-
-                </div>
+    <main class="container-principal">
+        <section class="secao-produtos">
+            <h1>MEUS PRODUTOS:</h1>
+            <div data-product class="produtos-container">
+                
             </div>
         </section>
-
-        <section class="adiciona-produto">
-            <h3>Adicionar produto:</h3>
+        <section class="secao-formulario">
+            <h2>ADICIONAR PRODUTOS:</h2>
             <form class="container-formulario" data-form>
-                <input type="text" placeholder="Nome do Produto">
-                <input type="text" placeholder="Valor">
-                <input type="text" placeholder="Url imagem">
-                <div class="container-botoes">
-                    <button type="submit" class="btn-submit">Guardar</button>
-                    <button type="reset" class="btn-clear">Limpar</button>
+                <input data-name placeholder="Nome" type="text" >
+                <input data-valor placeholder="Preço" type="text">
+                <input data-imagem placeholder="Url do produto" type="text">
+                <div class="container-botao">
+                    <button type="submit" class="botao-enviar" id="botao">Salvar</button>
+                    <button type="reset" class="botao-limpar" id="botao">Limpar</button>
                 </div>
-
             </form>
         </section>
     </main>
-
-    <footer class="rodape">
+    <footer class="rodape-container">
         <div>
-            <img src="/public/images/image-1.png" alt="">
+            <img src="/public/images/image-1.png" alt="imagem de corações pixelados">
             <p>AluraGeek</p>
         </div>
-        <p>Desenvolvido por Nayla Hilana | Alura LATAM 2024</p>
-
+        <p>Desenvolvido por Nayla Hilana</p>
     </footer>
+    <script type="module" src="./js/controllers/main.js"></script>
+    <script type="module" src="./js/services/product-services.js"></script>
 </body>
-
 </html>

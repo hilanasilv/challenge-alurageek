@@ -1,12 +1,28 @@
 {
- "products": [
+  "products": [
     {
-        "nome":"Darth Vader",
-        "preço": "28",
-        "imagem": "/public/images/unsplash-6-fdxgy-9-j-6-y-4.svg",
-        "id": "1"
+      "nome": "Stormtrooper",
+      "preco": "116,90",
+      "imagem": "/public/images/stormtrooper.png",
+      "id": "1"
+    },
+    {
+      "nome": "Chewbacca",
+      "preco": "129,90",
+      "imagem": "/public/images/chewbacca.png",
+      "id": "2"
+    },
+    {
+      "nome": "Baby Yoda",
+      "preco": "349,95",
+      "imagem": "/public/images/babyoda.png",
+      "id": "3"
+    },
+    {
+      "nome": "Darth Vader",
+      "preco": "250,00",
+      "imagem": "/public/images/darth-vader.png",
+      "id": "4"
     }
-    
-
- ]   
+  ]
 }

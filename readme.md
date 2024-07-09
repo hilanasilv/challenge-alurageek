@@ -1,14 +1,15 @@
 <h1 align="center">Challenge Alura Geek</h1>
 
-🚧 Projeto em construção 🚧
+<img src="./public/images/teladoprojeto.png">
 
-**Funcionalidades do projeto:**
+##
+
+O AluraGeek é um catálogo de produtos geek, o catálogo exibe produtos previamente cadastrados e também permite que o usuário cadastre os próprios produtos de maneira simples.
+
+⚙️ _O que foi implementado no projeto:_
+
+- Simulador de `API` de produtos com `JSON`.
+- Formulário para adicionar produtos.
 
 
-`API`: Simular uma API de produtos.
 
-`CRUD`:
-- Opção para adicionar produtos; 
-- Exibir produtos nos cards;
-- Opção para atualizar produtos;
-- Opção para deletar produtos.

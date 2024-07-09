@@ -2,7 +2,7 @@
   "name": "challenge-alura-geek",
   "version": "1.0.0",
   "description": "",
-  "main": "script.js",
+  "main": "index.js",
   "scripts": {
     "start": "json-server --watch ./database/db.json --port 3000"
   },
